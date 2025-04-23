@@ -22,32 +22,27 @@ function updateCountdown() {
 updateCountdown();
 
 
-// Efeito nas fotos
 document.querySelectorAll('.gallery img').forEach(img => {
     img.addEventListener('click', () => {
         img.classList.toggle('zoom');
     });
 });
 
-// Obtém todos os elementos das imagens
 const thumbnails = document.querySelectorAll('.thumbnail');
 
-// Obtém o modal e a imagem que será ampliada
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modal-img');
 
-// Obtém o botão de fechar
 const closeBtn = document.getElementById('close');
 
-// Função para abrir a imagem no modal
+
 thumbnails.forEach((thumbnail) => {
     thumbnail.addEventListener('click', () => {
         modal.style.display = 'flex';
-        modalImg.src = thumbnail.src; // Defina a imagem no modal
+        modalImg.src = thumbnail.src;
     });
 });
 
-// Função para fechar o modal ao clicar no "x"
 closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
 });

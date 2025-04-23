@@ -21,8 +21,8 @@ nav {
 }
 
 a:hover {
-    color: #ffd2de; /* Alterar a cor ao passar o mouse */
-    transform: scale(1.1); /* Leve aumento no tamanho do texto */
+    color: #ffd2de;
+    transform: scale(1.1);
 }
 
 nav ul {
@@ -113,7 +113,7 @@ section h1 {
     text-align: center;
     font-size: 2em;
     margin: 30px 0;
-    color: #ff7fa1; /* Rosa suave */
+    color: #ff7fa1;
 }
 
 .playlist iframe {
@@ -129,12 +129,12 @@ section h1 {
 
 .fundo-h1 {
     display: inline-block;
-    background-color: #ff95c0; /* Rosa claro */
+    background-color: #ff95c0;
     width: auto;
     height: auto;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
-    color: #ffe6f2; /* Branco suave */
+    color: #ffe6f2;
 }
 
 #jornada {
