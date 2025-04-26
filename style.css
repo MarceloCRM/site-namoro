@@ -174,3 +174,17 @@ section h1 {
 .close:hover {
     color: red;
 }
+
+#button-playlist {
+    background-color: #ff95c0; 
+    color: #f1e2f2; 
+    border: none; 
+    padding: 12px 24px; 
+    font-size: 20px; 
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+#button-playlist:hover {
+    transform: scale(1.05);
+}
